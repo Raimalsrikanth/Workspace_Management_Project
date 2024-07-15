@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/png" href="../image/logo.jpg">
+    <link rel="stylesheet" href="./admin-signup.css">
+    <title>Indiqube | Admin SignUp</title>
+</head>
+<body>
+    <section class="container">
+      <header>Admin Registration Form</header>
+
+
+
+      <form  class="form" id="form">
+
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" id="name"/>
+          <span></span>
+        </div>
+        
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter email address"  id="email" />
+          <span></span>
+        </div>
+
+        <div class="input-box">
+          <label for="">Password</label>
+          <input type="password" placeholder="Enter password"   id="password"/>
+          <span></span>
+          <p id="pass"></p>
+      </div>
+      
+        
+
+        <div class="input-box">
+            <label for="">Phone Number</label>
+            <input type="tel" placeholder="Enter phone number"  maxlength="10" minlength="10" id="phone" />
+            <span></span>
+            <p id="phonevailid"></p>
+        </div>
+
+
+        </div>
+
+        <br><br>
+        
+        Gender:
+        
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others
+        <br>
+
+        <br>
+        
+
+
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" placeholder="enter door no" id="dno" />
+          <span></span>
+
+          <input type="text" placeholder="Enter landmark" id="landmark" />
+          <span></span>
+          <input type="text" placeholder="Enter street"  id="street"/>
+          <span></span>
+          <input type="text" placeholder="Enter city"  id="city" />
+          <span></span>
+          <input type="text" placeholder="Enter district" id="district" />
+          <span></span>
+          <input type="text" placeholder="Enter state" id="state" />
+          <span></span>
+          <input type="number" placeholder="Enter pin code"  id="pincode"/>
+          <span></span>
+
+        </div>
+        <button id="Submit" >Submit</button>
+        
+      </form>
+
+
+
+    </section>
+    <script src="./admin-signup.js"></script>
+  </body>
+</html>
+</body>
+</html>

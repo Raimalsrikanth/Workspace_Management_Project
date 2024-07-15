@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin: 0;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    
+    height: 50px;
+
+    
+    color:red;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid black;
+    background-image: linear-gradient( 45deg,  red, yellow, green);
+    text-shadow: 3px 3px 2px black, 3px 3px 2px black, 3px 3px 2px black  ;
+}
+
+main {
+    width: 600px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position:relative; */
+    /* top: 400px; */
+   
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+.profile-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* position: absolute; */
+    /* left:730px; */
+    /* top:150px; */
+    display:flex;
+    /* flex-direction: center; */
+    
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+#flex{
+    display: flex;
+    border: 2px solid;
+    /* flex-direction: column; */
+}
+span{
+    font-weight: 350;
+    padding-left: 10px;
+    color: blue;
+}
